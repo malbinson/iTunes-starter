@@ -1,6 +1,7 @@
 function run() {
 
-    //need to add term and limit to the query parameters 
+    //keep the existing entity and attribute parameters
+    //add term and limit parameters with the user entered values
     let url = "https://itunes.apple.com/search?entity=musicTrack&attribute=allArtistTerm?entity=musicTrack&attribute=allArtistTerm"
 
     //connects to iTunes api and passes off to process function on success
